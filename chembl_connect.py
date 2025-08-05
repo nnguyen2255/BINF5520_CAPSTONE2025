@@ -152,7 +152,7 @@ def main(drug_list, protein_name):
                     "target_chembl_id": protein_id,
                     "canonical_smiles": record.get("canonical_smiles"),
                     "standard_type": None,
-                    "standard_value": None,
+                    "standard_value": 0,
                     "standard_units": None,
                     "pchembl_value": None,
                     "document_doi": None,

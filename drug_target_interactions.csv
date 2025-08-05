@@ -6,7 +6,7 @@ Methylphenidate,CHEMBL796,Dopamine transporter,CHEMBL238,COC(=O)C(c1ccccc1)C1CCC
 METHYLPHENIDATE HYDROCHLORIDE,CHEMBL1722,Dopamine transporter,CHEMBL238,COC(=O)C(c1ccccc1)C1CCCCN1.Cl,IC50,19.9,nM,7.70,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL1143600
 METHYLPHENIDATE HYDROCHLORIDE,CHEMBL1722,Dopamine transporter,CHEMBL238,COC(=O)C(c1ccccc1)C1CCCCN1.Cl,IC50,121.7,nM,6.92,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL1143600
 Amphetamine,CHEMBL405,Dopamine transporter,CHEMBL238,CC(N)Cc1ccccc1,AC50,30000.0,nM,,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL5291721
-Atomoxetine,CHEMBL1702,Dopamine transporter,CHEMBL238,CC(N)Cc1ccccc1,,,,,,
+Atomoxetine,CHEMBL1702,Dopamine transporter,CHEMBL238,CC(N)Cc1ccccc1,,0,,,,
 Modafinil,CHEMBL1373,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,IC50,1832.0,nM,5.74,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL1909046
 Modafinil,CHEMBL1373,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,Ki,1456.0,nM,5.84,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL1909046
 Modafinil,CHEMBL1373,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,Ki,3090.0,nM,5.51,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL3124844
@@ -15,9 +15,9 @@ Modafinil,CHEMBL1373,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)
 Modafinil,CHEMBL1373,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,Ki,927.0,nM,6.03,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL3862037
 Modafinil,CHEMBL1373,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,IC50,11500.0,nM,4.94,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL4028886
 Modafinil,CHEMBL1373,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,AC50,9350.0,nM,5.03,,https://www.ebi.ac.uk/chembl/g/#search_results/documents/CHEMBL5291721
-Bupropion,CHEMBL1201735,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,,,,,
-Dasotraline,CHEMBL3301595,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,,,,,
-Solriamfetol,CHEMBL4297620,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,,,,,
-CHEMBL542556,CHEMBL542556,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,,,,,
-CHEMBL1907454,CHEMBL1907454,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,,,,,
-CHEMBL1178927,CHEMBL1178927,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,,,,,
+Bupropion,CHEMBL1201735,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,0,,,,
+Dasotraline,CHEMBL3301595,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,0,,,,
+Solriamfetol,CHEMBL4297620,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,0,,,,
+CHEMBL542556,CHEMBL542556,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,0,,,,
+CHEMBL1907454,CHEMBL1907454,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,0,,,,
+CHEMBL1178927,CHEMBL1178927,Dopamine transporter,CHEMBL238,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,,0,,,,
