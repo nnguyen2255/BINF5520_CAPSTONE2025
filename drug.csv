@@ -1,6 +1,6 @@
 Drug,Chembl,SMILE,Approval Status,Ki (inhibitor constant),IC50
 Methylphenidate,CHEMBL796,COC(=O)C(c1ccccc1)C1CCCCN1,Approved,,79
-METHYLPHENIDATE HYDROCHLORIDE,,COC(=O)C(c1ccccc1)C1CCCCN1.Cl,Alternative approved,,121.7
+Methylphenidate Hydrochloride,,COC(=O)C(c1ccccc1)C1CCCCN1.Cl,Alternative approved,,121.7
 Amphetamine,CHEMBL405,CC(N)Cc1ccccc1,Approved,,
 Atomoxetine,CHEMBL641,CNCC[C@@H](Oc1ccccc1C)c1ccccc1,Approved,,
 Modafinil,CHEMBL1373,NC(=O)C[S+]([O-])C(c1ccccc1)c1ccccc1,Off-label in ADHD (approved),,
