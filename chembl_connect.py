@@ -88,7 +88,6 @@ def main(drug_list, protein_name):
         protein_name (str): name of the protein target (e.g., "Cyclooxygenase-2").
     """
     all_records = []
-    output_file = "drug_target_interactions.csv"
     
     # Define drug and protein names
     print(f"Searching for ChEMBL ID for target: '{protein_name}'...")
@@ -111,7 +110,7 @@ def main(drug_list, protein_name):
 
         time.sleep(1)  # Small delay to avoid overwhelming the API
 
-
+    
         print(f"Fetching interactions between {drug_name} ({drug_id}) and {protein_name} ({protein_id})...")
     
         interactions = get_interactions(drug_id, protein_id)
@@ -150,7 +149,7 @@ def main(drug_list, protein_name):
                     "drug_chembl_id": drug_id,
                     "target_name": protein_name,
                     "target_chembl_id": protein_id,
-                    "canonical_smiles": record.get("canonical_smiles"),
+                    "canonical_smiles": None,
                     "standard_type": None,
                     "standard_value": 0,
                     "standard_units": None,
@@ -161,10 +160,8 @@ def main(drug_list, protein_name):
                     
                 
         time.sleep(1)
-    # Save all records to a CSV file
-    df = pd.DataFrame(all_records)
-    df.to_csv(output_file, index=False)
-    print(f"\nAll interactions saved to {output_file}.")
+    return all_records
+ 
     
 
 #RUN MAIN----------------------------------

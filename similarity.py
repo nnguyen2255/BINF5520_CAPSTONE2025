@@ -73,7 +73,7 @@ def predict_interaction(drug_smiles, target_id, all_drug_smiles, known_interacti
     Args:
         drug_smiles (str): The SMILES string of the drug to predict for.
         target_id (str): The ID of the target to predict for.
-        all_drug_smiles (dict): Dictionary of all drug IDs and their SMILES.
+        all_drug_smiles (dict): Dictionary of all drug IDs and their SMILES. 
         known_interactions (list of tuples): All known drug-target interactions.
         k (int): The number of most similar neighbors to consider.
 
@@ -95,7 +95,7 @@ def predict_interaction(drug_smiles, target_id, all_drug_smiles, known_interacti
         similarities[other_drug_id] = calculate_tanimoto_similarity(fp_to_predict, other_fp)
 
     # 2. Find the 'k' most similar drugs
-    most_similar_drugs = sorted(similarities, key=similarities.get, reverse=True)[:k]
+    most_similar_drugs = sorted(similarities, key=similarities.get, reverse=True)[:k]  
 
     # 3. Check if any of these similar drugs are known to interact with the target
     for similar_drug_id in most_similar_drugs:
